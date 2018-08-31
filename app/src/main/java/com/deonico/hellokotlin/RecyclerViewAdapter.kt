@@ -24,7 +24,6 @@ class RecyclerViewAdapter (private val context: Context, private val  items: Lis
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
 
         private val name = view.findViewById<TextView>(R.id.name)
-        //val name = view.findViewById<TextView>(R.id.name)
         private val image = view.findViewById<ImageView>(R.id.image)
 
         /*fun bindItem(items: Item) {
